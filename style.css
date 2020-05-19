@@ -1,0 +1,30 @@
+#nav-btn{
+    border-radius: 100px;
+    width: 60px;
+} 
+.form-control{
+    margin-top: 1%;
+    height: 30px;
+    border-radius: 100px;
+}
+.nav-item{
+    padding-top: 5px;
+}
+#blue:hover{
+    color: blue;
+}
+@media(min-width:992px){
+    .form-control{
+        width: 250px;
+    }
+    a{
+        font-size: 12px;
+    }
+    a:hover{
+        border-bottom:1px solid blue;
+        color:blue;
+    }
+    .navbar{
+        padding-bottom: 0rem;
+    }
+}
